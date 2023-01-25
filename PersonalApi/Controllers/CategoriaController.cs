@@ -8,7 +8,7 @@ namespace PersonalApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    [AllowAnonymous]
     public class CategoriaController : ControllerBase
     {
         CategoriaLogica categorialogica = new CategoriaLogica();
